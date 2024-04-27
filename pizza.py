@@ -8,7 +8,7 @@ class Pizza():
 #se crea el metodo para validar las elecciones
     @staticmethod
     def validador (opciones, eleccion):
-        return eleccion in opciones
+        return all(ingrediente in opciones for ingrediente in eleccion)
 
 #se crea el metodo para definir atributos de la pizza
     def orden_pedido(self):
