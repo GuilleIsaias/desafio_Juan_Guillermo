@@ -12,7 +12,6 @@ print(Pizza.validador(["salsa de tomate", "salsa bbq"], "salsa de tomate"))
 p_eva = Pizza()
 p_eva.orden_pedido()
 
-print(ingredientes.proteina + ingredientes.vegetales + ingredientes.tipo_masa)
 print(p_eva.carne)
 print(p_eva.vegetal_1)
 print(p_eva.vegetal_2)
