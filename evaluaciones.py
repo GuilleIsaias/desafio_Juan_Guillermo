@@ -6,7 +6,7 @@ import ingredientes
 print(Pizza.size, Pizza.price)
 
 #requerimiento 5.b
-print(Pizza.validador(["salsa de tomate", "salsa bbq"], "salsa de tomate"))
+print(Pizza.validador(["salsa de tomate", "salsa bbq"], ["salsa de tomate"]))
 
 #requerimiento 5.c
 p_eva = Pizza()
